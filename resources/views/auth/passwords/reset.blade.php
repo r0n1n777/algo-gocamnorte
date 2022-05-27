@@ -13,7 +13,7 @@
             </p>
 
             <div class="card">
-                <div class="card-header bg-dark text-white fw-bold">Create New Password</div>
+                <div class="card-header bg-primary text-white fw-bold">Create New Password</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('password.update') }}">

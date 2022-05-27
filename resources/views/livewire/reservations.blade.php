@@ -63,7 +63,7 @@
     <div class="modal fade" id="store" tabindex="-1" role="dialog" aria-labelledby="store" aria-hidden="true" wire:ignore.self>
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header border-0 bg-dark bg-gradient text-white">
+                <div class="modal-header border-0 bg-primary bg-gradient text-white">
                     <h5 class="modal-title fw-bold">
                         <x-feathericon-calendar/>
                         Guideline

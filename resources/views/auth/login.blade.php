@@ -7,7 +7,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card shadow-sm">
-                <div class="card-header bg-dark text-white fw-bold">
+                <div class="card-header bg-primary text-white fw-bold">
                     Administrator Login
                 </div>
 
