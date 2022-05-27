@@ -17,7 +17,7 @@ class Reservations extends Component
 
     public function render()
     {
-        $this->reservations = Reservation::where('name', 'like',  '%'.$this->search.'%')->orderBy('reservation_id', 'desc')->get();
+        $this->reservations = Reservation::where('venue', 'like',  '%'.$this->search.'%')->orderBy('reservation_id', 'desc')->get();
 
         return view('livewire.reservations');
     }
