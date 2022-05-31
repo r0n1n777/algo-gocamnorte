@@ -93,17 +93,6 @@ ul li a {
     background: #fba419;
   }
 
-  .btn{
-    background: white;
-    border-radius: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border: none;
-    
-    
-   
-  }
-
   b{
     font-family: 'Montserrat', sans-serif;
   }
@@ -275,17 +264,6 @@ body{
   z-index: -1;
 }
 
-.content{
-  display: flex;
-  min-height: 110vh;
-}
-.content section{
-  margin-top: 8vh;
-  margin-left: 20vh;
-}
-.content-form{
-  margin-top: 7rem;
-}
 section i{
   border-radius: 50%;
   width: 40px;
@@ -293,17 +271,6 @@ section i{
   background-color: rgba(255,255,255,0.8);
   color: black;
   text-align: center;
-}
-.form{
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 50%;
-  margin-top: 5%;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .form .contact-form input{
@@ -317,8 +284,6 @@ section i{
   border-bottom: 2px solid #fff;
 }
 .form .contact-form input ~ span{
-  position: absolute;
-  left: 20px;
   transition: 0.9s ease-in-out;
   margin-top: 10px;
 }
@@ -336,8 +301,6 @@ section i{
 }
 .form .contact-form textarea ~ span
 {
-  position: absolute;
-  left: 20px;
   margin-top: 10px;
   transition: 0.9s ease-in-out;
 }
@@ -357,16 +320,11 @@ section i{
   background-color: transparent;
   color: dodgerblue;
 }
+
 .media{
-  position: absolute;
-  top: 85vh;
-  right: 20vh;
-  display: flex;
   list-style: none;
 }
-.media li{
-  margin: 20px 30px;
-}
+
 @media screen and (max-width: 900px){
   body{
       background-repeat: repeat-y;
@@ -376,10 +334,7 @@ section i{
   .empty{
       height: 210vh;
   }
-  .form{
-      position: absolute;
-      top: 100vh;
-  }
+  
   .content-form{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -390,10 +345,5 @@ section i{
   .content section{
       margin-top: 0vh;
       margin-left: 0vh;
-  }
-  .media{
-      position: absolute;
-      top: 190vh;
-      right: 10px;
   }
 }
