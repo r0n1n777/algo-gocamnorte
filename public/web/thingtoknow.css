@@ -8,18 +8,18 @@
 /*default*/
 
 html, body{
+  
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
 .navbar-brand :hover{
   color:#fba419;
 
 
+}
+.navbar{
+  background-color: darkslategrey;
+  
 }
 
 /*Navbar CSS left*/
@@ -64,18 +64,61 @@ ul li a {
 
 
 
+  /*hover in btn "EXPLORE"*/
 
+  .col-12 button:hover {
+    background: #fba419;
+  }
+
+  .btn{
+    background: white;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    
+    
+   
+  }
 
   b{
     font-family: 'Montserrat', sans-serif;
   }
+  
+  
 
-  .navbar{
-    background-color: darkslategrey;
+  /*toggler*/
+
+
+  .custom-toggler-icon span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: rgb(251, 164, 25);
+    margin: 8px 0;
   }
-  
-  
+  .custom-toggler-icon::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: rgb(251, 164, 25);
+  }
+  .custom-toggler-icon::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: rgb(251, 164, 25);
+  }
 
+
+    
+
+  #bicol{
+    font-family: 'Kaushan Script', cursive;
+
+  }
   /*toggler*/
 
 
@@ -112,7 +155,7 @@ ul li a {
 
   .container-fluid{
     display: grid;
-    grid-template-rows: repeat(6, 300px);
+    grid-template-rows: minmax(300px, auto);
     margin: 0;
     padding: 0;
   }
@@ -146,10 +189,54 @@ ul li a {
     grid-row: 6/7;
     background: rgb(128, 0, 85);
   }
+
+  .container-fluids{
+    display: grid;
+    grid-template-rows: repeat(6, 1300px);
+    margin: 0;
+    padding: 0;
+  }
   .rod7 {
     grid-row: 1;
-    background: lightgrey;
+    
+  }
+
+  .rod8 {
+    grid-row: 100%;
+    background-color: lightsteelblue;
   }
   #description{
     color:white;
   }
+
+  .year{
+    background-color: lightblue;
+  }
+  .rod9 {
+    grid-row: 7/8;
+    background-color: gray;
+  }
+  .rod10 {
+    grid-row: 8/9;
+    background-color: gray;
+  }
+  .rod11 {
+    grid-row: 8/9;
+    background-color: gray;
+  }
+
+  .rod12{
+    grid-row: 9/10;
+    background-color:white;
+  }
+
+  
+     /* FOOTER */
+     .footer {
+  
+      background: darkslategrey;
+      color: #d3d3d3;
+      height: 50px;
+      position: relative;
+    }
+

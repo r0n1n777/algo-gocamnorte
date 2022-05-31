@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <title>CamNorteTourism&Guidelines</title>
+    <title>Camarines Norte Tourism & Guidelines | Region V Bicol, PH</title>
+<link rel="shortcut icon" href="/web/apple-icon-114x114.png" type="image/png">
 <link rel="shortcut icon" href="/web/apple-icon-114x114.png" type="image/png">
 
     <link
@@ -69,8 +70,10 @@
 
         @livewire('booking')
 
-    @livewireScripts
+    @livewireScripts<div class="fixed-bottom container-fluid w-100 text-white text-center p-1" style="background-color: darkslategrey;">
 </body>
+                &copy; GoCamNorte.com | Designed by: Banjo and Arvin
+            </div>
 <script
 src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

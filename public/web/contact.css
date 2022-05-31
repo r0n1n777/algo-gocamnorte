@@ -300,9 +300,10 @@ section i{
   top: 0;
   left: 0;
   margin-left: 50%;
+  margin-top: 5%;
   justify-content: center;
   align-items: center;
-  min-height: 110vh;
+  min-height: 100vh;
 }
 
 .form .contact-form input{
@@ -395,14 +396,4 @@ section i{
       top: 190vh;
       right: 10px;
   }
-}
- /* FOOTER */
- .footer {
-
-  background: darkslategrey;
-  color: #d3d3d3;
-  height: 50px;
-  margin: auto;
-  position: relative;
-
 }
